@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* color: #FFF7EE , #E5BDA7 , #74583E , #5E6572 */
+body {
+    background-color: #f9f5f0a4;
+
+}
+
+/* Header */
+header {
+    background-image: url("/img/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* background-image: url("/img/header.jpg");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; */
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    color: #E1C980;
+    text-shadow: 2px 2px black;
+}
+
+header h1 {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.date {
+    font-size: 80px;
+}
+
+/* Invite */
+.invite {
+    text-align: center;
+}
+
+.invite h1 {
+    text-align: center;
+}
+
+.invite p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.invite img {
+    position: relative;
+    width: 50%;
+    top: 10px;
+    left: 2.5vw;
+}
+
+.confirm {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Italianno', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.confirm:hover {}
+
+/* Church */
+.church {
+    background-image: url(img/section2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+.church h1 {
+    padding: 15px;
+}
+
+.church h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #E1C980;
+    text-shadow: 2px 2px black;
+}
+
+.church img {
+    position: relative;
+    width: 25%;
+    top: -4vh;
+}
+
+iframe {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* hotel */
+.hotel {
+    text-align: center;
+}
+
+.hotel h1 {
+    padding: 15px;
+}
+
+.hotel h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.hotel img {
+    position: relative;
+    width: 25%;
+}
+
+
+/* Party */
+.party {
+    background-image: url(img/chaupa.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.party h1 {
+    padding: 15px;
+}
+
+.party h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #E1C980;
+    text-shadow: 2px 2px black;
+    padding: 4px;
+}
+
+.party img {
+    position: relative;
+    width: 35%;
+    top: -4vh;
+}
+
+/* Booking */
+.booking {
+    text-align: center;
+}
+
+.booking h1 {
+    font-size: 35px;
+}

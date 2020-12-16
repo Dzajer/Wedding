@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aleksandra & Grzegorz</title>
+</head>
+<body>
+    <!-- Header-->
+    <header>
+        <h1>Aleksandra<br>&<br>Grzegorz</h1>
+        <h1 class="date">12 |06 |2021</h1>
+        
+    </header>
+    <section class="invite">
+        <img src="/img/my.png" alt="">
+        <h1>Bierzemy Ślub!</h1>
+        
+        <p>Mamy nadzieję, że będziecie tego dnia razem z nami.
+            Poniżej znajdziecie wszystkie niezbędne informacje organizacyjne oraz sekcję „potwierdzanie obecności”, w której jednym kliknięciem zapiszecie się na nasz ślubny newsletter i powiadomicie o Swoim przybyciu.</p>
+            <button class="confirm">Potwierdź</button>
+    </section>
+    <section class="church">
+        <h1>Ślub</h1>
+        <img src="/img/church.png" alt="Church">
+        <h2>Kościół Rzymskokatolicki <br> Pw. św. Józefa</h2>
+        <h2>12/06-2021</h2>
+        <h2>17:00</h2>
+        <h2>Połabska 1, 70-115 Szczecin</h2>
+        <!-- <button class="churchmap">dojazd</button> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9514.839653716643!2d14.520454544146551!3d53.40212887985064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa08e6e2fa962d%3A0x4a2d4d5cbccd7ec0!2zS2_Fm2Npw7PFgiBSenltc2tva2F0b2xpY2tpIFB3LiDFm3cuIErDs3plZmE!5e0!3m2!1spl!2snl!4v1607966711894!5m2!1spl!2snl" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="hotel">
+        <h1>Nocleg</h1>
+        <img src="/img/hotel.png" alt="Hotel Ibis">
+        <h1>Hotel "IBIS"</h1>
+        <h2>Ul. Południowa 9,</h2>
+        <h2>71-001 Szczecin</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9513.883874214996!2d14.492746769775383!3d53.406402800000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa08cdaeac3ecf%3A0x4105c0434e68d64b!2sibis%20budget%20Szczecin!5e0!3m2!1spl!2snl!4v1608106850000!5m2!1spl!2snl" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="party">
+        <h1>Wesele</h1>
+        <img src="/img/chaup.png" alt="Restauracja Chałupa">
+        <h1>Restauracja Chałupa</h1>
+        <h2>Ul. Południowa 9,</h2>
+        <h2>71-001 Szczecin</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.574243926272!2d14.501958515840625!3d53.4045555799913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa08cc25d89b17%3A0xd32bef427c1953fc!2sRestauracja%20Cha%C5%82upa!5e0!3m2!1spl!2snl!4v1607968288879!5m2!1spl!2snl" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="booking">
+        <h1>Potwerdzenie przybycia</h1>
+       <form class="contact-form" action=contactform.php method="post">
+           <input type="text" name="name" placeholder="Full name">
+           <input type="text" name="mail" placeholder="Your e-mail">
+           <input type="text" name="subject" placeholder="Subject">
+           <select type="text" name="choose">
+               <option type="text" name="choose" >Jebac</option>
+               <option type="text" name="choose">Pis</option>
+           </select>
+           <textarea name="message" placeholder="Message"></textarea>
+           <button type="submit" name="submit">Send email</button>
+
+       </form>
+    </section>
+</body>
+</html>
